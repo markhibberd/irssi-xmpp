@@ -1,3 +1,14 @@
+NOTES
+=====
+
+Building on OS-X 
+    
+    brew install irssi
+    brew install loudmouth
+    LDFLAGS='-flat_namespace -undefined warning -fPIC'; export LDFLAGS
+    make PREDIX=/usr/local/Cellar/irssi/0.8.15
+    make user-install
+
 irssi-xmpp:
 ===========
 
